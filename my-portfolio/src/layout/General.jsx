@@ -9,7 +9,7 @@ function General() {
                         {' '}
                         <span style={{ color: 'white', fontWeight: 'bold' }}>
                             <Typewriter
-                                words={['Intern web developer', 'I build web applications', `I'm a third-year student in PTIT Viet Nam`]}
+                                words={['Intern web developer', 'I build web applications', `A third-year student in PTIT`]}
                                 loop='0'
                                 cursor
                                 cursorStyle='_'
@@ -20,6 +20,17 @@ function General() {
                         </span>
                     </h1>
                     <p className="text-xl">I'm a hard-working and self-taught student who is passionate about technology. I aspire to become a professional <b>Backend developer</b> after graduation. Furthermore, I aim to become a skilled <b>Fullstack developer</b> and a <b>Leader</b> in the future.</p>
+                    <div className='flex flex-col'>
+                        <p className='text-md font-medium'><i class="fa-solid fa-phone"></i> 0834588225</p>
+                        <p className='text-md font-medium'><i class="fa-solid fa-envelope"></i> hungnguyenbn002@gmail.com</p>
+                    </div>
+                    <div className='flex justify-center gap-7'>
+                        <a href='https://www.facebook.com/vhungitptit' target='_blank'><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href='https://github.com/ProXBucky' target='_blank'><i class="fa-brands fa-github fa-xl"></i></a>
+                        <a href='https://www.linkedin.com/in/proxbucky' target='_blank'><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                    </div>
+                    <button className='border-2 w-1/4 text-lg p-2 rounded-full mx-auto'>Resume <i class="fa-solid fa-download"></i></button>
+
                 </div>
 
             </div >

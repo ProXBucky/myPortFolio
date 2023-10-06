@@ -12,14 +12,14 @@ function App() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className='w-full pb-16'>
         <General />
       </div>
-      <div className='bg-[#1a1a1a] rounded-2xl flex flex-col mx-[130px] h-[1000px] p-[40px]'>
+      <div className='bg-[#1a1a1a] rounded-2xl flex flex-col mx-[130px] p-[40px]'>
         <AboutMe />
-        <Education />
         <Skills />
+        <Education />
         <PersonalProject />
         <Award />
         <Contact />
