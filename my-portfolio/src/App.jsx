@@ -10,6 +10,10 @@ import Contact from './layout/Contact'
 
 function App() {
 
+  const scrollTop = () => {
+    window.scrollTo(0, 0)
+  }
+
   return (
     <>
       {/* <Header /> */}
@@ -22,7 +26,10 @@ function App() {
         <Education />
         <PersonalProject />
         <Award />
-        <Contact />
+        <Contact scrollTop={scrollTop} />
+      </div>
+      <div className='pt-20'>
+
       </div>
     </>
   )

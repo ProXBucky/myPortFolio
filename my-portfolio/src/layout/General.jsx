@@ -1,5 +1,8 @@
 import { Typewriter } from 'react-simple-typewriter'
 function General() {
+    const downloadLink = '/path/to/your/file.pdf'; // Đường dẫn đến tệp cần tải xuống
+    const filename = 'Intern - Nguyen Viet Hung CV'; // Tên file khi được tải xuống
+
     return (
         <>
             <div className="bg-[url(/src/assets/img/back-beach.jpg)] bg-cover h-screen flex items-center justify-center p-[350px]">
@@ -25,11 +28,14 @@ function General() {
                         <p className='text-md font-medium'><i class="fa-solid fa-envelope"></i> hungnguyenbn002@gmail.com</p>
                     </div>
                     <div className='flex justify-center gap-7'>
-                        <a href='https://www.facebook.com/vhungitptit' target='_blank'><i class="fa-brands fa-facebook fa-xl"></i></a>
-                        <a href='https://github.com/ProXBucky' target='_blank'><i class="fa-brands fa-github fa-xl"></i></a>
-                        <a href='https://www.linkedin.com/in/proxbucky' target='_blank'><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a className="hover:opacity-80" href='https://www.facebook.com/vhungitptit' target='_blank'><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a className="hover:opacity-80" href='https://github.com/ProXBucky' target='_blank'><i class="fa-brands fa-github fa-xl"></i></a>
+                        <a className="hover:opacity-80" href='https://www.linkedin.com/in/proxbucky' target='_blank'><i class="fa-brands fa-linkedin fa-xl"></i></a>
                     </div>
-                    <button className='border-2 w-1/4 text-lg p-2 rounded-full mx-auto'>Resume <i class="fa-solid fa-download"></i></button>
+
+                    <a href={downloadLink} download={filename}>
+                        <button className='border-2 border-blue-600 w-1/4 text-md p-2 rounded-full mx-auto hover:opacity-70'>Download my CV <i class="fa-solid fa-download"></i></button>
+                    </a>
 
                 </div>
 

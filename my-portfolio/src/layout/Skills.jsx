@@ -14,7 +14,7 @@ function Skills() {
                                 logoSkillFront && logoSkillFront.length > 0 &&
                                 logoSkillFront.map((item, index) => {
                                     return (
-                                        <div className="h-20 w-20 flex flex-col p-2" key={index}>
+                                        <div className="h-20 w-20 flex flex-col p-2 cursor-pointer" key={index}>
                                             <img src={item.link} alt={item.name} className="animate-logo-spin" />
                                             <p className="h-2/6">{item.name}</p>
                                         </div>
@@ -30,7 +30,7 @@ function Skills() {
                                 logoSkillBack && logoSkillBack.length > 0 &&
                                 logoSkillBack.map((item, index) => {
                                     return (
-                                        <div className="h-20 w-20 flex flex-col p-2" key={index}>
+                                        <div className="h-20 w-20 flex flex-col p-2 cursor-pointer" key={index}>
                                             <img src={item.link} alt={item.name} className="animate-logo-spin" />
                                             <p className="h-2/6">{item.name}</p>
                                         </div>
@@ -47,7 +47,7 @@ function Skills() {
                             logoSkillOther && logoSkillOther.length > 0 &&
                             logoSkillOther.map((item, index) => {
                                 return (
-                                    <div className="h-20 w-20 flex flex-col p-2" key={index}>
+                                    <div className="h-20 w-20 flex flex-col p-2 cursor-pointer" key={index}>
                                         <img src={item.link} alt={item.name} className="animate-logo-spin" />
                                         <p className="h-2/6">{item.name}</p>
                                     </div>
