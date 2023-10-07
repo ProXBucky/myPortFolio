@@ -1,5 +1,5 @@
 
-function Contact({scrollTop}) {
+function Contact({ scrollTop }) {
 
 
     return (
@@ -8,7 +8,7 @@ function Contact({scrollTop}) {
             <div className="bg-[url(/src/assets/Map.jpg)] opacity-60 bg-no-repeat bg-cover rounded-xl h-[400px] w-full">
             </div>
             <div className="py-10 flex flex-col">
-                <p className="text-md pb-3">I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.</p>
+                <p className="text-md pb-3">I'd love to hear from you, give me a shout by email or facebook or phone if you'd like to get in contact with me.</p>
                 <div className='flex flex-col gap-1'>
                     <p className='text-md font-medium hover:opacity-80 w-3/5'><i class="fa-solid fa-phone fa-lg mr-2"></i> 0834588225</p>
                     <p className='text-md font-medium hover:opacity-80 w-3/5'><i class="fa-solid fa-envelope fa-lg mr-2"></i> hungnguyenbn002@gmail.com</p>
