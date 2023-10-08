@@ -62,7 +62,7 @@ export const logoSkillBack = [
         'link': NodeJs
     },
     {
-        'name': 'ExpresJS',
+        'name': 'ExpressJS',
         'link': ExpressJS
     },
     {
@@ -70,13 +70,13 @@ export const logoSkillBack = [
         'link': MySQL
     },
     {
-        'name': 'PostgreSQL',
-        'link': Postgress
-    },
-    {
         'name': 'Sequelize',
         'link': Sequelize
     },
+    // {
+    //     'name': 'PostgreSQL',
+    //     'link': Postgress
+    // },
 
 ]
 
