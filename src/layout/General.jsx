@@ -1,7 +1,6 @@
 import { Typewriter } from 'react-simple-typewriter'
 function General() {
-    const downloadLink = `/Nguyen-Viet-Hung-Intern-CV.pdf`
-    const filename = 'Intern - Nguyen Viet Hung CV'; // Tên file khi được tải xuống
+
 
     return (
         <>
@@ -33,7 +32,7 @@ function General() {
                         <a className="hover:opacity-80" href='https://www.linkedin.com/in/proxbucky' target='_blank'><i class="fa-brands fa-linkedin fa-xl"></i></a>
                     </div>
 
-                    <a href={downloadLink} download={filename}>
+                    <a href="https://drive.google.com/file/d/1R0404LWFZT6NxOFdo_JvdQz7CQ7ZEYtT/view" target='_blank'>
                         <button className='border-2 border-blue-600 xl:w-1/4 lg:w-1/4 md:w-1/2 sm:w-full text-md p-2 rounded-full mx-auto hover:opacity-70'>Download my CV <i class="fa-solid fa-download"></i></button>
                     </a>
 
