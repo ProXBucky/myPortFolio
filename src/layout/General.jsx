@@ -1,6 +1,6 @@
 import { Typewriter } from 'react-simple-typewriter'
 function General() {
-    const downloadLink = '/src/assets/myCV/Nguyen-Viet-Hung-Intern-CV.pdf'; // Đường dẫn đến tệp cần tải xuống
+    const downloadLink = `${process.env.PATH_PDF}/assets/myCV/Nguyen-Viet-Hung-Intern-CV.pdf`
     const filename = 'Intern - Nguyen Viet Hung CV'; // Tên file khi được tải xuống
 
     return (
