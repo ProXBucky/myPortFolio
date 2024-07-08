@@ -15,7 +15,7 @@ function Skills() {
                                 logoSkillFront.map((item, index) => {
                                     return (
                                         <div className="xl:h-20 lg:h-20 md:h-20 sm:h-14 xl:w-20 lg:w-20 md:w-20 sm:w-14 flex flex-col p-2 cursor-pointer" key={index}>
-                                            <img src={item.link} alt={item.name} className="animate-logo-spin" />
+                                            <img src={item.link} alt={item.name} className="animate-logo-spin xl:h-20 lg:h-20 md:h-20 sm:h-14 xl:w-20 lg:w-20 md:w-20 sm:w-14" />
                                             <p>{item.name}</p>
                                         </div>
                                     )
@@ -31,7 +31,7 @@ function Skills() {
                                 logoSkillBack.map((item, index) => {
                                     return (
                                         <div className="xl:h-20 lg:h-20 md:h-20 sm:h-14 xl:w-20 lg:w-20 md:w-20 sm:w-14 flex flex-col p-2 cursor-pointer" key={index}>
-                                            <img src={item.link} alt={item.name} className="animate-logo-spin" />
+                                            <img src={item.link} alt={item.name} className="animate-logo-spin xl:h-20 lg:h-20 md:h-20 sm:h-14 xl:w-20 lg:w-20 md:w-20 sm:w-14" />
                                             <p>{item.name}</p>
                                         </div>
                                     )
@@ -48,7 +48,7 @@ function Skills() {
                             logoSkillOther.map((item, index) => {
                                 return (
                                     <div className="xl:h-20 lg:h-20 md:h-20 sm:h-14 xl:w-20 lg:w-20 md:w-20 sm:w-14 flex flex-col p-2 cursor-pointer" key={index}>
-                                        <img src={item.link} alt={item.name} className="animate-logo-spin" />
+                                        <img src={item.link} alt={item.name} className="animate-logo-spin xl:h-22 lg:h-20 md:h-20 sm:h-14 xl:w-20 lg:w-20 md:w-20 sm:w-14" />
                                         <p>{item.name}</p>
                                     </div>
                                 )

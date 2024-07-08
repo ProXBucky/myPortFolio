@@ -39,7 +39,7 @@ function Education() {
                                 <p>
                                     Majoring in Information Technology
                                     <br />
-                                    A third-year student with CPA: 3.16
+                                    A 4nd-year student with CPA: 3.16
                                 </p>
                             </div>
                         </VerticalTimelineElement>

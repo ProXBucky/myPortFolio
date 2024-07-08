@@ -12,12 +12,12 @@ function AboutMe() {
                     <div className="flex flex-col pt-10 xl:text-lg lg:text-lg md:text-lg sm:text-base">
                         <p><i className="fa-solid mr-3 fa-location-dot"></i> <b>Location:</b> Ha Dong, Ha Noi</p>
                         <p><i className="fa-solid mr-3 fa-flag"></i><b>Nationality:</b> Vietnamese</p>
-                        <p><i className="fa-solid mr-3 fa-calendar"></i><b>Age:</b> 20</p>
+                        <p><i className="fa-solid mr-3 fa-calendar"></i><b>Age:</b> 21</p>
                         <p><i className="fa-solid mr-1 fa-graduation-cap"></i><b>Study:</b> Posts and Telecommunications Institute of Technology (PTIT)</p>
                         <p><i className="fa-solid mr-2 fa-star"></i><b>Interests: </b>Music and Football </p>
                     </div>
                 </div>
-                <div className="bg-[url(https://res.cloudinary.com/dqi9ub7dw/image/upload/v1696749788/Project-IMG/ava_qeqtgj.jpg)] opacity-90 mx-auto bg-no-repeat bg-cover bg-center overflow-hidden rounded-full border xl:h-[350px] lg:h-[300px] md:h-[250px] sm:h-[150px] xl:w-[300px] lg:w-[300px] md:w-[250px] sm:w-[150px]">
+                <div className="bg-[url(/avaHung.jpg)] opacity-95 mx-auto bg-no-repeat bg-cover overflow-hidden rounded-full border xl:h-[350px] lg:h-[300px] md:h-[250px] sm:h-[150px] xl:w-[300px] lg:w-[300px] md:w-[250px] sm:w-[150px]">
                 </div>
             </div>
         </>

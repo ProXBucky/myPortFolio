@@ -14,29 +14,87 @@ function PersonalProject() {
                             className="text-white text-left"
                             contentStyle={{ background: '#676a6f' }}
                             contentArrowStyle={{ borderRight: '7px solid #676a6f' }}
+                            date="May 2024 - July 2024"
+                            position="right"
+                            iconStyle={{ background: '#676a6f', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+                            icon={<i class="fa-solid fa-book fa-xl"></i>}
+                        >
+                            <div>
+                                <h3 className="vertical-timeline-element-title text-xl font-semibold">The rent car system (Mioto)</h3>
+                                <p>Team size: 1</p>
+                                <p>Position: Fullstack developer</p>
+                                <p>Technology stack:
+                                    <li>Frontend: ReactJS, Redux-Toolkit, TaiwindCSS, axios,...</li>
+                                    <li>Backend: NestJS, Postgres, TypeORM, Cloudinary, ...</li>
+                                </p>
+                                <p>Detail project:
+                                    <li>Function: View detail car's information, Order car, statistics on number of admins, users, cars, trips, blogs, reports, comments,
+                                        CRUD admins, users, cars, trips, blogs, ...</li>
+                                </p>
+                                <div className="bg-[url(/Mioto-Demo.jpg)] mt-5 bg-no-repeat bg-cover bg-center rounded-xl h-[500px] w-full md:hidden sm:hidden" />
+                                <div className='flex gap-10 justify-center py-10'>
+                                    <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://mioto-frontend.vercel.app' target='_blank'>View demo</a>
+                                    <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://github.com/ProXBucky/mioto-backup' target='_blank'>View code</a>
+
+                                </div>
+
+
+                            </div>
+                        </VerticalTimelineElement>
+
+                        <VerticalTimelineElement
+                            className="text-white text-left"
+                            contentStyle={{ background: '#676a6f' }}
+                            contentArrowStyle={{ borderRight: '7px solid #676a6f' }}
+                            date="April 2024"
+                            position="right"
+                            iconStyle={{ background: '#676a6f', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+                            icon={<i class="fa-solid fa-book fa-xl"></i>}
+                        >
+                            <div>
+                                <h3 className="vertical-timeline-element-title text-xl font-semibold">The online testing system PTIT</h3>
+                                <p>Team size: 4</p>
+                                <p>Position: Fullstack developer</p>
+                                <p>Technology stack:
+                                    <li>Frontend: HTML, CSS, Javascript</li>
+                                    <li>Backend: Spring Boot, Hibernate, MySQL</li>
+                                </p>
+                                <p>Detail project:
+                                    <li>Function: Train and test exams in PTIT </li>
+                                </p>
+                                <div className="bg-[url(/PTIT-demo.bmp)] mt-5 bg-no-repeat bg-contain bg-center rounded-xl h-[500px] w-full md:hidden sm:hidden" />
+                                <div className='flex gap-10 justify-center py-10'>
+                                    {/* <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://thecoffeehouse-clone.vercel.app' target='_blank'>View demo</a> */}
+                                    <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://github.com/ProXBucky/BTN-LapTrinhWeb-SpringBoot' target='_blank'>View code</a>
+
+                                </div>
+
+
+                            </div>
+                        </VerticalTimelineElement>
+
+
+                        <VerticalTimelineElement
+                            className="text-white text-left"
+                            contentStyle={{ background: '#676a6f' }}
+                            contentArrowStyle={{ borderRight: '7px solid #676a6f' }}
                             date="Jul 2023 - Sep 2023"
                             position="right"
                             iconStyle={{ background: '#676a6f', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
                             icon={<i class="fa-solid fa-book fa-xl"></i>}
                         >
                             <div>
-                                <h3 className="vertical-timeline-element-title text-xl font-semibold">The Coffee House Clone</h3>
+                                <h3 className="vertical-timeline-element-title text-xl font-semibold">The online food ordering system The Coffee House</h3>
                                 <p>Team size: 1</p>
-                                <p>Position: Fullstack</p>
+                                <p>Position: Fullstack developer</p>
                                 <p>Technology stack:
                                     <li>Frontend: ReactJS, Redux-Toolkit, TaiwindCSS, axios, React Hook Form,...</li>
-                                    <li>Backend: ExpressJS, MySQL, Sequelize,...</li>
+                                    <li>Backend: ExpressJS, MySQL, Sequelize, Cloudinary, ...</li>
                                 </p>
                                 <p>Detail project:
-                                    <li>Using ReactJS, Redux-Toolkit, TailwindCSS to clone website: <a href='https://thecoffeehouse.com' target='_blank'>https://thecoffeehouse.com</a></li>
-                                    <li>Using React Hook Form to validate before handling data</li>
-                                    <li>Saving images in Cloudinary</li>
-                                    <li>Using ExpressJS, MySQL to create API for website on NodeJS Platform </li>
-                                    <li>Authentication and Authorization with JWT, cookies.</li>
-                                    <li>Shopping cart with LocalStorage</li>
                                     <li>Function: Order products, statistics on number of admins, products, stores, orders, total sales, CRUD admins, products, stores, orders, histories</li>
                                 </p>
-                                <div className="bg-[url(https://res.cloudinary.com/dqi9ub7dw/image/upload/v1696748815/Project-IMG/Prj1_fezj2z.png)] mt-5 bg-no-repeat bg-cover bg-center rounded-xl h-[400px] w-full md:hidden sm:hidden" />
+                                <div className="bg-[url(https://res.cloudinary.com/dqi9ub7dw/image/upload/v1696748815/Project-IMG/Prj1_fezj2z.png)] mt-5 bg-no-repeat bg-cover bg-center rounded-xl h-[500px] w-full md:hidden sm:hidden" />
                                 <div className='flex gap-10 justify-center py-10'>
                                     <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://thecoffeehouse-clone.vercel.app' target='_blank'>View demo</a>
                                     <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://github.com/ProXBucky/TheCoffeeHouseBackup' target='_blank'>View code</a>
@@ -46,6 +104,7 @@ function PersonalProject() {
 
                             </div>
                         </VerticalTimelineElement>
+
                         <VerticalTimelineElement
                             className="text-white text-left"
                             contentStyle={{ background: '#676a6f' }}
