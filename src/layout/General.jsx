@@ -11,7 +11,7 @@ function General() {
                         {' '}
                         <span style={{ color: 'white', fontWeight: 'bold' }}>
                             <Typewriter
-                                words={['Intern web developer', 'I build web applications', `A 4nd-year student in PTIT`]}
+                                words={['Intern web developer', 'I build web applications', `A final student in PTIT`]}
                                 loop='0'
                                 cursor
                                 cursorStyle='_'
@@ -32,7 +32,7 @@ function General() {
                         <a className="hover:opacity-80" href='https://www.linkedin.com/in/proxbucky' target='_blank'><i class="fa-brands fa-linkedin fa-xl"></i></a>
                     </div>
 
-                    <a href="https://drive.google.com/file/d/1EPLAaqn8jh1fQbc8FKwgMPm6ri4AtLag/view?usp=sharing" target='_blank'>
+                    <a href="https://drive.google.com/file/d/1jz55IQo9gQrbV5XgjqR9rpjil2mXzAhW/view?usp=sharing" target='_blank'>
                         <button className='border-2 border-blue-600 xl:w-1/4 lg:w-1/4 md:w-1/2 sm:w-full text-md p-2 rounded-full mx-auto hover:opacity-70'>Download my CV <i class="fa-solid fa-download"></i></button>
                     </a>
 
