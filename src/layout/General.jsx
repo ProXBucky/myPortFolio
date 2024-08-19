@@ -29,7 +29,7 @@ function General() {
                     <div className='flex justify-center gap-7'>
                         <a className="hover:opacity-80" href='https://www.facebook.com/vhungitptit' target='_blank'><i class="fa-brands fa-facebook fa-xl"></i></a>
                         <a className="hover:opacity-80" href='https://github.com/ProXBucky' target='_blank'><i class="fa-brands fa-github fa-xl"></i></a>
-                        <a className="hover:opacity-80" href='https://www.linkedin.com/in/proxbucky' target='_blank'><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a className="hover:opacity-80" href='https://www.linkedin.com/in/hungbn002' target='_blank'><i class="fa-brands fa-linkedin fa-xl"></i></a>
                     </div>
 
                     <a href="https://drive.google.com/file/d/1jz55IQo9gQrbV5XgjqR9rpjil2mXzAhW/view?usp=sharing" target='_blank'>
