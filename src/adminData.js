@@ -27,7 +27,7 @@ import JWT from "./assets/logoSVG/jsonwebtokens-svgrepo-com.svg"
 import Vite from "./assets/logoSVG/vite.svg"
 import DBeaver from "./assets/logoSVG/DBeaver-Logo.wine.svg"
 import VSCode from "./assets/logoSVG/visual-studio-code-1.svg"
-
+import Docker from "./assets/logoSVG/docker-svgrepo-com.svg"
 
 
 export const logoSkillFront = [
@@ -72,22 +72,6 @@ export const logoSkillFront = [
 
 export const logoSkillBack = [
     {
-        'name': 'NodeJS',
-        'link': NodeJs
-    },
-    {
-        'name': 'ExpressJS',
-        'link': ExpressJS
-    },
-    {
-        'name': 'NestJS',
-        'link': Nest
-    },
-    {
-        'name': 'TypeORM',
-        'link': TypeOrm
-    },
-    {
         'name': 'Java',
         'link': Java
     },
@@ -110,6 +94,22 @@ export const logoSkillBack = [
     {
         'name': 'PostgreSQL',
         'link': Postgress
+    },
+    {
+        'name': 'NodeJS',
+        'link': NodeJs
+    },
+    {
+        'name': 'ExpressJS',
+        'link': ExpressJS
+    },
+    {
+        'name': 'NestJS',
+        'link': Nest
+    },
+    {
+        'name': 'TypeORM',
+        'link': TypeOrm
     },
 
 ]
@@ -143,5 +143,8 @@ export const logoSkillOther = [
         'name': 'VSCode',
         'link': VSCode
     },
-
+    {
+        'name': 'Docker',
+        'link': Docker
+    }
 ]

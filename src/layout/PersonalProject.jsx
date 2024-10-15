@@ -14,6 +14,37 @@ function PersonalProject() {
                             className="text-white text-left"
                             contentStyle={{ background: '#676a6f' }}
                             contentArrowStyle={{ borderRight: '7px solid #676a6f' }}
+                            date="Oct 2023"
+                            position="right"
+                            iconStyle={{ background: '#676a6f', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
+                            icon={<i class="fa-solid fa-book fa-xl"></i>}
+                        >
+                            <div>
+                                <h3 className="vertical-timeline-element-title text-xl font-semibold">The Coffee House</h3>
+                                <p>Team size: 1</p>
+                                <p>Position: Fullstack developer</p>
+                                <p>Technology stack:
+                                    <li>Frontend: ReactJS, Redux-Toolkit, TaiwindCSS,...</li>
+                                    <li>Backend: Spring Boot, Postgres, Hibernate, Spring Data JPA, Cloudinary, Docker,...</li>
+                                </p>
+                                <p>Detail project:
+                                    <li>Function: Order products, statistics on number of admins, products, stores, orders, total sales, CRUD admins, products, stores, orders, histories</li>
+                                </p>
+                                <div className="bg-[url(https://res.cloudinary.com/dqi9ub7dw/image/upload/v1696748815/Project-IMG/Prj1_fezj2z.png)] mt-5 bg-no-repeat bg-cover bg-center rounded-xl h-[500px] w-full md:hidden sm:hidden" />
+                                <div className='flex gap-10 justify-center py-10'>
+                                    <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://thecoffeehouse-clone.vercel.app' target='_blank'>View demo</a>
+                                    <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://github.com/ProXBucky/frontend-thecoffeehouse' target='_blank'>View code frontend</a>
+                                    <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://github.com/ProXBucky/TheCoffeHouse_SpringBoot' target='_blank'>View code backend</a>
+
+                                </div>
+
+
+                            </div>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="text-white text-left"
+                            contentStyle={{ background: '#676a6f' }}
+                            contentArrowStyle={{ borderRight: '7px solid #676a6f' }}
                             date="May 2024 - July 2024"
                             position="right"
                             iconStyle={{ background: '#676a6f', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
@@ -53,11 +84,10 @@ function PersonalProject() {
                         >
                             <div>
                                 <h3 className="vertical-timeline-element-title text-xl font-semibold">The online testing system PTIT</h3>
-                                <p>Team size: 4</p>
                                 <p>Position: Fullstack developer</p>
                                 <p>Technology stack:
                                     <li>Frontend: HTML, CSS, Javascript</li>
-                                    <li>Backend: Spring Boot, Hibernate, MySQL</li>
+                                    <li>Backend: Spring Boot, Spring Data JPA, Hibernate, MySQL, Thymeleaf</li>
                                 </p>
                                 <p>Detail project:
                                     <li>Function: Train and test exams in PTIT </li>
@@ -66,38 +96,6 @@ function PersonalProject() {
                                 <div className='flex gap-10 justify-center py-10'>
                                     {/* <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://thecoffeehouse-clone.vercel.app' target='_blank'>View demo</a> */}
                                     <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://github.com/ProXBucky/BTN-LapTrinhWeb-SpringBoot' target='_blank'>View code</a>
-
-                                </div>
-
-
-                            </div>
-                        </VerticalTimelineElement>
-
-
-                        <VerticalTimelineElement
-                            className="text-white text-left"
-                            contentStyle={{ background: '#676a6f' }}
-                            contentArrowStyle={{ borderRight: '7px solid #676a6f' }}
-                            date="Jul 2023 - Sep 2023"
-                            position="right"
-                            iconStyle={{ background: '#676a6f', color: '#fff', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
-                            icon={<i class="fa-solid fa-book fa-xl"></i>}
-                        >
-                            <div>
-                                <h3 className="vertical-timeline-element-title text-xl font-semibold">The online food ordering system The Coffee House</h3>
-                                <p>Team size: 1</p>
-                                <p>Position: Fullstack developer</p>
-                                <p>Technology stack:
-                                    <li>Frontend: ReactJS, Redux-Toolkit, TaiwindCSS, axios, React Hook Form,...</li>
-                                    <li>Backend: ExpressJS, MySQL, Sequelize, Cloudinary, ...</li>
-                                </p>
-                                <p>Detail project:
-                                    <li>Function: Order products, statistics on number of admins, products, stores, orders, total sales, CRUD admins, products, stores, orders, histories</li>
-                                </p>
-                                <div className="bg-[url(https://res.cloudinary.com/dqi9ub7dw/image/upload/v1696748815/Project-IMG/Prj1_fezj2z.png)] mt-5 bg-no-repeat bg-cover bg-center rounded-xl h-[500px] w-full md:hidden sm:hidden" />
-                                <div className='flex gap-10 justify-center py-10'>
-                                    <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://thecoffeehouse-clone.vercel.app' target='_blank'>View demo</a>
-                                    <a className='p-2 rounded-full border-2 xl:w-1/6 lg:w-1/6 md:w-1/4 sm:w-1/3 hover:bg-gray-500 text-center' href='https://github.com/ProXBucky/TheCoffeeHouseBackup' target='_blank'>View code</a>
 
                                 </div>
 

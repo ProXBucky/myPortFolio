@@ -39,7 +39,7 @@ function Education() {
                                 <p>
                                     Majoring in Information Technology
                                     <br />
-                                    Final student with GPA: 3.13
+                                    Final student with GPA: 3.2
                                 </p>
                             </div>
                         </VerticalTimelineElement>
